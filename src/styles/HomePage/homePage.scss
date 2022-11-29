@@ -1,0 +1,31 @@
+.home-page {
+  .self-photo-container {
+    height: 70vh;
+
+    .self-photo {
+      border-radius: 50%;
+      border: 3px solid $outer-space;
+      margin: auto 0 auto auto;
+      max-width: 350px;
+    }
+
+  }
+  .social-medias {
+    .social-icon {
+      font-size: 30px;
+    }
+  }
+
+  .right-container {
+    margin: auto;
+    text-align: center;
+
+    .my-name-title {
+      font-size: 50px;
+    }
+
+    .introduction-p {
+      font-size: 20px;
+    }
+  }
+}

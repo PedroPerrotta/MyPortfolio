@@ -1,0 +1,15 @@
+.header {
+    position: absolute;
+    right: 50px;
+
+    .header-link {
+        background-color: transparent;
+        border: none;
+        color: $outer-space;
+        margin: 0 20px;
+
+        &:hover {
+            color: $apple-green;
+        }
+    }
+}

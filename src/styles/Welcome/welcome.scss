@@ -1,0 +1,19 @@
+.welcome-container {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  .title-welcome {
+    font-weight: 600;
+  }
+
+  .language-button {
+    background-color: $neon-carrot;
+    border-radius: 5px;
+    color: $outer-space;
+    padding: 10px;
+  }
+}

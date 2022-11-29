@@ -1,0 +1,16 @@
+@import "./variables.scss";
+@import "./UI/centralCard.scss";
+@import "./Welcome/welcome.scss";
+@import "./HomePage/homePage.scss";
+@import "./UI/header.scss";
+@import "./Animations/animations.scss";
+
+html, .main-app-container {
+    background-color: $outer-space;
+    font-family: 'IBM Plex Mono', monospace;;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
