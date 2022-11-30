@@ -1,0 +1,58 @@
+.home-page {
+    @media (min-width: 1200px) {
+      .right-cols {
+        display: flex;
+      }
+    }
+    @media (max-width: 1200px) {
+    .self-photo-container {
+      height: 45vh;
+      .self-photo {
+        margin: auto;
+        max-width: 400px;
+      }
+    }
+
+    .right-container {
+
+      .info-block {
+        min-height: auto;
+      }
+    }
+
+    .section-container {
+      margin: auto;
+    }
+    
+    .social-medias {
+      top: 5px;
+      position: absolute;
+      right: 10px;
+
+      .social-icon {
+        position: inherit;
+      }
+    }
+
+    .header {
+      margin-top: 10px;
+      position: inherit;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .self-photo-container {
+      height: 30vh;
+      .self-photo {
+        margin: auto;
+        max-width: 200px;
+      }
+    }
+
+    .header-link {
+      display: block;
+      margin: auto;
+    }
+  }
+}

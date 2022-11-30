@@ -1,0 +1,78 @@
+.home-page {
+  .self-photo-container {
+    display: flex;
+    height: 70vh;
+
+    .self-photo {
+      border-radius: 50%;
+      border: 3px solid $outer-space;
+      margin: auto 0 auto auto;
+      max-width: 350px;
+    }
+
+  }
+  .social-medias {
+    .social-icon {
+      color: $outer-space;
+      font-size: 30px;
+      position: relative;
+      top: 50px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .right-container {
+    margin: auto;
+    text-align: center;
+
+    .info-block {
+      min-height: 200px;
+    }
+
+    .block-title {
+      font-size: 50px;
+      font-weight: 700;
+    }
+
+    .introduction {
+      .block-subtitle {
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      .introduction-p {
+        font-size: 20px;
+      }
+
+      .block-p {
+        font-size: 17px;
+      }
+
+      .project-link {
+        border: 1px solid $outer-space;
+        border-radius: 4px;
+        color: $outer-space;
+        font-size: 20px;
+        padding: 3px 5px;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .back-button {
+    color: $outer-space;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+      color: $apple-green;
+    }
+  }
+}
