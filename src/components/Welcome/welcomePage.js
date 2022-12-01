@@ -20,13 +20,13 @@ const WelcomePage = () => {
   return (
     <CentralCard>
       <div className={`welcome-container ${fade ? "fadeInPage" : "fadeOutPage"}`}>
-        <h1 className="title-welcome mb-4">-- Select Language --</h1>
-        <h1 className="title-welcome mb-5">-- Seleccionar Idioma --</h1>
+        <h1 className="title-welcome mb-4">Select Language</h1>
+        <h1 className="title-welcome mb-5">Seleccionar Idioma</h1>
 
         <button type="button" onClick={() => animate("english")} className="language-button mx-3">
           English
         </button>
-        <button type="button" onClick={() => animate("spanish")} className="language-button mx-3">
+        <button type="button" onClick={() => animate("spanish")} className="language-button mx-3 mt-2">
           Español
         </button>
       </div>

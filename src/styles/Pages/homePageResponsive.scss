@@ -44,6 +44,7 @@
   @media (max-width: 576px) {
     .self-photo-container {
       height: 30vh;
+      display: none;
       .self-photo {
         margin: auto;
         max-width: 200px;
