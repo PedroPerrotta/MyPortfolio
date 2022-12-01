@@ -19,7 +19,7 @@ const experience = {
       "Now I am working on migrating a web server site to a React Application.",
   },
   spanish: {
-    title: "Experiencia",
+    title: "Trabajo",
     firstSubTitle: "42Mate [14 de Septiembre de 2022 - Presente]",
     firstParagraph:
       "En mi primer proyecto me encargué de dar estilos a páginas migradas de drupal 7 a drupal 9 como también migrar algunas librerias de javascript",

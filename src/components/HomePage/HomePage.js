@@ -60,7 +60,7 @@ const HomePage = (props) => {
             </div>
           </div>
           <div className="col-sm-12 col-xl-7 right-cols">
-            <PagesOptions onClick={onChangePage} />
+            <PagesOptions lang={props.lang} onClick={onChangePage} />
             <div className="right-container">
               <div className="info-block">
                 {
