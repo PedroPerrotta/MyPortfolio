@@ -8,6 +8,7 @@
       border: 3px solid $outer-space;
       margin: auto 0 auto auto;
       max-width: 350px;
+      min-height: 350px;
     }
 
   }
@@ -16,7 +17,7 @@
       color: $outer-space;
       font-size: 30px;
       position: relative;
-      top: 50px;
+      top: 150px;
 
       &:hover {
         opacity: 0.8;
@@ -37,7 +38,26 @@
       font-weight: 700;
     }
 
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+     
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+
     .introduction {
+      max-height: 300px;
+      overflow-y: scroll;
+
       .block-subtitle {
         font-size: 24px;
         font-weight: 500;

@@ -12,7 +12,10 @@ const Experience = (props) => {
           {experience[props.lang].firstParagraph}
         </p>
         <p className="block-p">
-           {experience[props.lang].secondParagraph}
+          {experience[props.lang].secondParagraph}
+        </p>
+        <p className="block-p">
+          {experience[props.lang].thirdParagraph}
         </p>
       </div>
     </>
